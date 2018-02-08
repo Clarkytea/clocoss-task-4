@@ -21,7 +21,7 @@ It is currently set to run every hour
 
     5.  Modify the cron job ( every hour is show below )
 
-        0 * * * * sh /home/{your gcloud username}/clocoss-4/cron.sh
+        0 * * * * sh /home/{your gcloud username}/clocoss-task-4/cron.sh
 
     6. Profit !
 
