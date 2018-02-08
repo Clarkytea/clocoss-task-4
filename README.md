@@ -7,6 +7,8 @@ It is currently set to run every hour
 
     1. Clone this Repo into a gcloud VM with the correct privilges
     
+        git clone https://github.com/Clarkytea/clocoss-task-4
+    
     2.  Change into directory: 
 
         cd clococss-task-4
@@ -17,9 +19,9 @@ It is currently set to run every hour
 
     4.  Use the cron manager to alter the time 
 
-        Run crontab -e
+        crontab -e
 
-    5.  Modify the cron job ( every hour is show below )
+    5.  Modify the cron job ( update for every hour is shown below )
 
         0 * * * * sh /home/{your gcloud username}/clocoss-task-4/cron.sh
 
